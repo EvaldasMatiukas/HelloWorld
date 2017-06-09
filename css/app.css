@@ -1,4 +1,3 @@
-<style>
 		h1
 		{
 		color:orange;
@@ -10,6 +9,10 @@
 		color:red;
 
 		}
-		</style>
 
-		
+th
+{
+	background-color: rgb(255, 153, 153)
+}
+
+
