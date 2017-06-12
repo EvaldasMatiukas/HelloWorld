@@ -1,10 +1,14 @@
 		
+		
+
+		
+
 		@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
 		
 		body
 		{
 			text-align:center;
-
+			transition: background-color 2s;
 			font-family: 'Roboto', sans-serif;
 		}		
 
@@ -30,3 +34,14 @@ td
 	background-color: rgb(255,255,0)
 }
 
+
+@media screen and (max-width: 640px)
+		{
+		body 
+			{
+							background-color: #ffb3b3;
+							
+					
+			}
+	
+		}
