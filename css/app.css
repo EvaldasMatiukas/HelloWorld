@@ -1,4 +1,13 @@
-<style>
+		
+		@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+		
+		body
+		{
+			text-align:center;
+
+			font-family: 'Roboto', sans-serif;
+		}		
+
 		h1
 		{
 		color:orange;
@@ -10,6 +19,14 @@
 		color:blue;
 
 		}
-		</style>
 
-		
+th
+{
+	background-color: rgb(255, 153, 153)
+}
+
+td
+{
+	background-color: rgb(255,255,0)
+}
+
