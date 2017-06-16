@@ -3,3 +3,4 @@
 				}
 				function neteisingai() {
 					document.getElementById('klausimas').innerHTML = '<h1>Atsakymas neteisingas!<h1>';
+				}
