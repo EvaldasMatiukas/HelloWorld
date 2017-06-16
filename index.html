@@ -8,7 +8,7 @@
 			<link rel="stylesheet" href="css/font-awesome.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-			<script src="js/script.js"></script>
+			<script src="script.js"></script>
 
 	</head>
 	
@@ -17,25 +17,22 @@
 		<div class="container">
 
 			<div class="row">
-			<div> id="preke" style="padding: 25px; background-color: gray;color: white">
+			<div id="preke" style="padding: 25px; background-color: gray;color: white">
+			tuscia
 			</div>
 			
-			<button onclick="parodyk_preke()">Saldumynas</button>button>
+			<button onclick="parodyk_preke()">Saldumynas</button>
 
 			<script>
 
 		function parodyk_preke() {
-			var prekes_pavadinimas = "saldainis">
+			var prekes_pavadinimas = "saldainis";
 			var prekes_kaina = 1;
 			var sudetis = ["cukrus", "sokoladas", "riesutai"];
 			
-			var visa_kaina = 5 * prekes_kaina + pristatymo_mokestis;
+			var visa_kaina = 5 * prekes_kaina;
 
-			document.getElementsByTagName('preke').innerHTML = prekes_pavadinimas;
-			document.write(prekes_pavadinimas);
-			document.write("<br />Kaina: " + prekes_kaina);
-			document,write("<br /Visa kaina:" + visa_kaina);
-			document.write("br />Sudetyje yra: " + sudetis[1]);
+			document.getElementById('preke').innerHTML = prekes_pavadinimas;
 			}
 			</script>
 			</div>
