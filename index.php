@@ -33,7 +33,7 @@
 
 	//echo "Kaina" . $kaina;
 
-	echo "Mano random skaicius yra " . rand (100, 1000);
+	echo '"Mano random skaicius yra "' . rand (100, 1000);
 
 
 //rand(5, 230);
@@ -57,4 +57,9 @@
 	// round
 	// ceil 
 	// floor
-	
+
+	//camelCase -  failu pavadinimas negali buti is didziosios raides arba prasideti skaiciumi.
+
+	//pvz. echo "<>"
+
+	//
